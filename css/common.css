@@ -1,9 +1,18 @@
-﻿.navbar {
+﻿
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+.navbar {
     z-index: 200 !important;
     border-radius: 0 !important;
     border-color: #F8F8F8;
+} 
+@font-face {
+    font-family: 'litnusx';
+    src: url('../fonts/litnusx.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'bpg_glaho';
+    src: url('../fonts/bpg_glaho.ttf') format('truetype');
+}
 .navbar-nav {
     padding-right: 120px;
     z-index: 200;
@@ -34,4 +43,28 @@
 .dropdown a {
     padding-left: 20px !important;
     padding-right: 20px !important;
+}
+
+video {
+    position: absolute;
+}
+
+footer {
+    background-color: white !important;
+}
+
+    footer * {
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    footer span, footer a {
+        text-decoration: none !important;
+        font-size: 20px;
+        color: black !important;
+        
+    }
+
+h1 h2 h3 h4 {
+    font-family:'bpg_glaho'!important;
 }
